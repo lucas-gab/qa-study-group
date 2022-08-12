@@ -31,7 +31,13 @@ print(int(number_as_string) * 2)
 
 list_names = ["Hugo", "Leticia", "Vini", "Andrew", "Imtiaj"]
 
+mixed_list = ['Lucas', 31]
+
+list_within_list = [['Lucas', 31], ['Paula', 28], ['John', 22]]
+
 print(list_names[0])
+
+print(list_within_list[0][0])
 
 # Lists are group of data stored together by the use of [ ]
 # We can access the items on the list by using the index selector list_name[0]
@@ -43,3 +49,49 @@ print(list_from_one_to_ten)
 
 # list() is used to create a list type of data
 # range(0, 11) creates a list of numbers starting at 1 and ending, but not including 11
+
+# Methods for Strings
+
+my_name = 'lUcAs'
+
+my_age = 31
+
+print(my_name.lower())
+
+print(my_name.upper())
+
+print(my_name.capitalize())
+
+print(len(my_name))
+
+print(len(list_names))
+
+print(f'My name is {my_name} and I am {my_age}')
+
+# Methods for Lists
+
+list_names = ["Hugo", "Leticia", "Vini", "Andrew"]
+
+print(len(list_names))
+
+list_names.append("Eduardo")
+
+print(len(list_names))
+
+print(list_names)
+
+list_names.remove("Hugo")
+
+print(list_names)
+
+qa_study_group = list_names.copy()
+
+list_names.clear()
+
+print(list_names)
+
+# BOOLEANS
+
+my_boolean = (10 == 10)
+
+print(my_boolean)
