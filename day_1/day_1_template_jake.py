@@ -4,7 +4,7 @@
 # Your code below this line
 
 
-test - 1 + 1
+test = 1 + 1
 
 # Data Types
 # Create a String
