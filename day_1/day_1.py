@@ -95,3 +95,5 @@ print(list_names)
 my_boolean = (10 == 10)
 
 print(my_boolean)
+
+print(list_names)
