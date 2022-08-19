@@ -95,3 +95,28 @@ print(list_names)
 my_boolean = (10 == 10)
 
 print(my_boolean)
+
+measurements = [9.1, 8.8, 7.5, 5.6, 7.9, 3.1, 9.8]
+print(measurements)
+print(measurements[1:])
+print(measurements[:-1])
+print(measurements[-3:])
+
+
+Insane = 'Crazzzzzy'
+print(Insane)
+print(Insane[1])
+print(Insane[:3])
+print(Insane[:-3])
+
+
+print('Lukas' .replace('k', 'c'))
+
+
+The_word = 'Crazzzzzy'
+Letters_list = list(The_word)
+print(Letters_list)
+
+Letters_list = ['C', 'r', 'a', 'z', 'z', 'z', 'z', 'z', 'y']
+The_word = str.join('', Letters_list)
+print(The_word)
