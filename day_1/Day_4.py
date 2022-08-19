@@ -3,6 +3,10 @@
 # Declare tw variables that store numbers and print() a sum, a subtraction and division and a multiplication
 # Your code below this line
 
+
+# Alex_Korzhan
+
+
 measurements = [9.1, 8.8, 7.5, 5.6, 7.9, 3.1, 9.8]
 print(measurements)
 print(measurements[1:])
