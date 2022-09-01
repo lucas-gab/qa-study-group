@@ -29,37 +29,19 @@ student_3_fourth_grade = 4
 # Use functions and conditionals to achieve this
 # Your code goes below this line
 
-def final_grade_1(student_1, grade_1, grade_2, grade_3, grade_4):
-    final_grade_result_1 = (grade_1 + grade_2 + grade_3 + grade_4)/4
-    if final_grade_result_1 >= 8:
-        print(f"Final grade: {final_grade_result_1}. Enjoy your summer vacation, {student_1}!")
-    elif final_grade_result_1 > 6:
-        print(f"Final grade: {final_grade_result_1}.Here's your summer homework, {student_1}")
+def calculate_final_grade(student_name, first_grade, second_grade, third_grade, fourth_grade):
+    final_grade_result = (first_grade + second_grade + third_grade + fourth_grade) / 4
+
+    print(f"{student_name}'s final grade is {final_grade_result}")
+
+    if final_grade_result >= 8:
+        print("Enjoy your summer vacation.")
+    elif final_grade_result < 8 and final_grade_result >= 6:
+        print("Here's your summer homework.")
     else:
-        print(f"Final grade: {final_grade_result_1}. Too bad, guess you are stuck at school, {student_1}")
-
-final_grade_1(student_1, student_1_first_grade, student_1_second_grade, student_1_third_grade, student_1_fourth_grade)
-
-def final_grade_2(student_2, grade_1, grade_2, grade_3, grade_4):
-    final_grade_result_2 = (grade_1 + grade_2 + grade_3 + grade_4)/4
-    if final_grade_result_2 >= 8:
-        print(f"Final grade: {final_grade_result_2}. Enjoy your summer vacation, {student_2}!")
-    elif final_grade_result_2 > 6:
-        print(f"Final grade: {final_grade_result_2}. Here's your summer homework, {student_2}")
-    else:
-        print(f"Final grade: {final_grade_result_2}. Too bad, guess you are stuck at school, {student_2}")
-
-final_grade_2(student_2, student_2_first_grade, student_2_second_grade, student_2_third_grade, student_2_fourth_grade)
-
-def final_grade_3(student_3, grade_1, grade_2, grade_3, grade_4):
-    final_grade_result_3= (grade_1 + grade_2 + grade_3 + grade_4)/4
-    if final_grade_result_3 >= 8:
-        print(f"Final grade: {final_grade_result_3}. Enjoy your summer vacation, {student_3}!")
-    elif final_grade_result_3 > 6:
-        print(f"Final grade: {final_grade_result_3}. Here's your summer homework, {student_3}")
-    else:
-        print(f"Too bad, guess you are stuck at school, {student_3}")
-
-final_grade_3(student_3, student_3_first_grade, student_3_second_grade, student_3_third_grade, student_3_fourth_grade)
+        print('Too bad, guess you are stuck at school.')
 
 
+calculate_final_grade("Maria", 10, 8, 7, 10)
+calculate_final_grade("Joseph", 6, 4, 2, 6)
+calculate_final_grade("Helen", 10, 9, 5, 4)
