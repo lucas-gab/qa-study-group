@@ -57,7 +57,7 @@ def final_grade2 (dictionaire):
         grade = sum(dictionaire[student]) / len(dictionaire[student])
 
         if grade >= 8:
-            print (f'Congratulations {student}! Your final grade was {grade} Enjoy your summer vacations')
+            print (f'Congratulations {student}! Your final grade was {grade}. Enjoy your summer vacations')
         elif grade >= 6:
             print (f'{student} you are almost there! Your final grade was {grade}. Please finish your summer homework')
         else:
