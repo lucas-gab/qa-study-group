@@ -34,7 +34,7 @@ def final_grade (name, grade1, grade2, grade3, grade4):
     grade = (grade1 + grade2 + grade3 + grade4) / 4
 
     if grade >= 8:
-        print (f'Congratulations {name}! Your final grade was {grade} Enjoy your summer vacations')
+        print (f'Congratulations {name}! Your final grade was {grade}. Enjoy your summer vacations')
     elif grade >=6:
         print (f'{name} you are almost there! Your final grade was {grade}. Please finish your summer homework')
     else:
