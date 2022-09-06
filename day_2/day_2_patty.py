@@ -35,7 +35,7 @@ def final_grade (name, grade1, grade2, grade3, grade4):
 
     if grade >= 8:
         print (f'Congratulations {name}! Your final grade was {grade}. Enjoy your summer vacations')
-    elif grade >=6:
+    elif grade >= 6:
         print (f'{name} you are almost there! Your final grade was {grade}. Please finish your summer homework')
     else:
         print (f"{name}, unfortunatelly you didn't get it this time. Your final grade was {grade}. You'll have to come to school during summer")
@@ -47,8 +47,8 @@ final_grade (student_3, student_3_first_grade, student_3_second_grade, student_3
 #####trying it in a different way:
 student_grades = {
     'Maria': [10, 8, 7, 10] ,
-    'Joseph': [6,4,2,6] ,
-    'Hellen': [10, 9, 5, 4]
+    'Joseph': [6, 4, 2, 6] ,
+    'Hellen': [10, 9, 5, 4] ,
 }
 
 def final_grade2 (dictionaire):
@@ -58,7 +58,7 @@ def final_grade2 (dictionaire):
 
         if grade >= 8:
             print (f'Congratulations {student}! Your final grade was {grade} Enjoy your summer vacations')
-        elif grade >=6:
+        elif grade >= 6:
             print (f'{student} you are almost there! Your final grade was {grade}. Please finish your summer homework')
         else:
             print (f"{student}, unfortunatelly you didn't get it this time. Your final grade was {grade}. You'll have to come to school during summer")
