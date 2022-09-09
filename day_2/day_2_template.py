@@ -16,7 +16,7 @@ student_3 = "Helen"
 student_3_first_grade = 10
 student_3_second_grade = 9
 student_3_third_grade = 5
-student_3_fourth_grade = 4
+student_3_fourth_grade = 6
 
 # Now we need to calculate the final grade of each student (sum of all grades diveded by 4)
 # We also need to evaluate if the student is going to have summer vacations or not
