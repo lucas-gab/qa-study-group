@@ -29,3 +29,19 @@ student_3_fourth_grade = 6
 # will have summer homework or will have to stay in school during summer
 # Use functions and conditionals to achieve this
 # Your code goes below this line
+
+
+def calculate_students_final_grades(student_name, first_grade, second_grade, third_grade, fourth_grade):
+    avarage_grade = (first_grade + second_grade + third_grade + fourth_grade) / 4
+
+    if avarage_grade >= 8:
+        print(f"Hey {student_name}! You did great! Your final grade was {avarage_grade}. Enjoy your summer!")
+    elif avarage_grade >= 6:
+        print(f"Hey {student_name}! You could have done better. Your final grade was {avarage_grade}. Please collect your homework before leaving for summer!")
+    else:
+        print(f"Hi {student_name}. Your final grade was {avarage_grade}. You will stay in school for summer.")
+
+
+calculate_students_final_grades(student_1, student_1_first_grade, student_1_second_grade, student_1_third_grade, student_1_fourth_grade)
+calculate_students_final_grades(student_2, student_2_first_grade, student_2_second_grade, student_2_third_grade, student_2_fourth_grade)
+calculate_students_final_grades(student_3, student_3_first_grade, student_3_second_grade, student_3_third_grade, student_3_fourth_grade)
