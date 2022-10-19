@@ -1,0 +1,6 @@
+{
+    "Names": ["Lucas", "Paula", "Cameron", "Eduardo", "Hugo", "Sezim", "Patricia", "Leticia", "Vinicius", "John"],
+    "Ages": [31, 28, 25, 29, 31, 27, 32, 22, 21, 26],
+    "Country": ["Brazil", "Brazil", "USA", "Brazil", "Brazil", "Kyrgyzstan", "Brazil", "Brazil", "Brazil", "England"],
+    "Grades": [10, 8, 9.5, 10, 7, 6, 4, 10, 9, 8]
+}
